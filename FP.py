@@ -46,29 +46,45 @@
 # for i in number:
 #     print(i)
 
-number = 1
-while number <= 5:
-    print(number * "*")
-    number += 1
+# number = 1
+# while number <= 5:
+#     print(number * "*")
+#     number += 1
 
-marks = [80,70,60,50,78]
-marks.insert(0,90)
-print(marks[0:2])
-print(len(marks))
+# marks = [80,70,60,50,78]
+# marks.insert(0,90)
+# print(marks[0:2])
+# print(len(marks))
 
-result = {
-    "tauliah" : 80,
-    "aliza" : 70,
-    "fasih" : 60,
-    "tahir" : 50,
-    "fahad" : 78,
-}
-result["umer"] = 49
-print(result["tauliah"])
-print(result.keys())
-print(result.values())
+# result = {
+#     "tauliah" : 80,
+#     "aliza" : 70,
+#     "fasih" : 60,
+#     "tahir" : 50,
+#     "fahad" : 78,
+# }
+# result["umer"] = 49
+# print(result["tauliah"])
+# print(result.keys())
+# print(result.values())
 
-def multiplication(num1 , num2):
-    print(num1 * num2)
-multiplication(2,3)
+# def multiplication(num1 , num2):
+#     print(num1 * num2)
+# multiplication(2,3)
+
+# table print
+# num = int(input("enter a number you want to print number"))
+# for i  in range(0,10):
+#     print(num ," * " , i , " = " , num*i)
+
+# values = input("enter comma separated values : ").split(",")
+# print(values)
+# for a in values:
+#     print(int(a))
+
+[(print(n)) for n in input("enter comma separated values ->: ").split(",")]
+
+# it is list comprehension
+# [print(a," is the even values") for a in range(50) if a % 2 == 0]
+
 
