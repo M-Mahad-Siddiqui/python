@@ -82,9 +82,31 @@
 # for a in values:
 #     print(int(a))
 
-[(print(n)) for n in input("enter comma separated values ->: ").split(",")]
+# [(print(n)) for n in input("enter comma separated values ->: ").split(",")]
 
 # it is list comprehension
 # [print(a," is the even values") for a in range(50) if a % 2 == 0]
+# ---------------------------------
+# a = 7  
+# e = 1  
+# print('\n')  
+# for i in range(3):
+#     for b in range(e, e + 10):
+#         print(a * b, end=" ") 
+#     print('\n')  
+#     e += 10  
 
+# ----------------------------------
+list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+
+first = second = float('-inf')  
+
+for num in list:
+    if num > first:
+        second = first  
+        first = num
+    elif num > second and num != first:
+        second = num
+
+print("Second largest number is", second)
 
