@@ -97,16 +97,28 @@
 #     e += 10  
 
 # ----------------------------------
-list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+# list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-first = second = float('-inf')  
+# first = second = float('-inf')  
 
-for num in list:
-    if num > first:
-        second = first  
-        first = num
-    elif num > second and num != first:
-        second = num
+# for num in list:
+#     if num > first:
+#         second = first  
+#         first = num
+#     elif num > second and num != first:
+#         second = num
 
-print("Second largest number is", second)
+# print("Second largest number is", second)
 
+# ---------------------------------
+def add(a=0,b=0 , *other):
+  print(a+b+sum(other))
+add(1,5,5,6,7,8)
+
+def factorial(n):
+    if n == 0:
+        return 1
+    else:
+        return n * factorial(n-1)
+
+print(factorial(4))
