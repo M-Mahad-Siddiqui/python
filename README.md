@@ -1,4 +1,4 @@
-## Python Pro
+## Python Pro Course
 ### - Numpy 
 ### - Pandas
 ### - Flask
